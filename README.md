@@ -1,4 +1,4 @@
-Nesse README deixarei um breve resumo dos capítulos para consultas futuras
+Nesse README deixarei um breve resumo dos capítulos para consultas futuras. Além dos exercícios escritos propostos em cada capítulo
 
 ## Índice
 
@@ -24,3 +24,9 @@ A busca simples poderia levar 240.000 passos se a palavra que você está procur
 Portanto, a busca binária levará 18 passos – uma grande diferença! Em geral, para qualquer lista de n elementos, a busca binária levará log2 n passos no caso mais extremo, enquanto a busca simples levará n passos.
 
 Para entender exatamente quantos passos você precisa, é basicamente um cálculo de logaritmo.
+
+Exercícios:
+
+  1.1 Suppose you have a sorted list of 128 names, and you’re searching through it using binary search. What’s the maximum number of steps it would take?
+
+  1.2 Suppose you double the size of the list. What’s the maximum number of steps now?
