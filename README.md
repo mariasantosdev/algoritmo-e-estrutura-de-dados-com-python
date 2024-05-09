@@ -33,3 +33,13 @@ Exercícios:
   
   1.2 Suppose you double the size of the list. What’s the maximum number of steps now?
   log2 256 = 8.
+
+
+### big O notation:
+    O(log n), também conhecido como tempo de log. Exemplo: pesquisa binária.
+
+    O(n), também conhecido como tempo linear. Exemplo: pesquisa simples.
+
+    O (n * log n). Exemplo: um algoritmo de classificação rápida, como quicksort
+
+    O(n2). Exemplo: um algoritmo de ordenação lento
