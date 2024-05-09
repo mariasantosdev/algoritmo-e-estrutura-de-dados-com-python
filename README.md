@@ -5,7 +5,7 @@ Nesse README deixarei um breve resumo dos capítulos para consultas futuras. Al�
 - [Capítulo 1](#Capítulo-1)
 
 ## Capítulo 1
-Busca binária:
+### Busca binária:
 
 A busca binária é um algoritmo que recebe como entrada uma lista ordenada de elementos. Se o elemento que você está procurando estiver nessa lista, a busca binária retorna a posição onde ele está localizado. Caso contrário, retorna null.
 
