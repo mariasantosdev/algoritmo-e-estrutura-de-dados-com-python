@@ -49,14 +49,13 @@ Exercícios:
   1.2 Suppose you double the size of the list. What’s the maximum number of steps now?
   log2 256 = 8.
 
+  1.3 You have a name, and you want to find the person’s phone number in the phone book.
 
-  1.3 Você tem um nome e deseja encontrar o número de telefone da pessoa na lista telefônica.
+  1.4 You have a phone number, and you want to find the person’s name in the phone book. (Hint: You’ll have to search through the whole book!)
 
-  1.4 Você tem um número de telefone e deseja encontrar o nome da pessoa na lista telefônica. (Dica: você terá que pesquisar o livro inteiro!)
+  1.5 You want to read the numbers of every person in the phone book.
 
-  1.5 Você deseja ler os números de cada pessoa na lista telefônica.
-
-  1.6 Você deseja ler os números apenas de As. (Esta é uma pergunta complicada! Envolve conceitos que serão abordados mais detalhadamente no capítulo 4. Leia a resposta – você pode se surpreender!)
+  1.6 You want to read the numbers of just the As. (This is a tricky one! It involves concepts that are covered more in chapter 4. Read the answer—you may be surprised!)
 
 
 
