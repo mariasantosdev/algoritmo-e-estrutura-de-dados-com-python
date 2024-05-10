@@ -62,6 +62,7 @@ Exercícios:
   In this case, a simple search is sufficient because we need to look at all individuals O(n)
 
   1.6 You want to read the numbers of just the As. (This is a tricky one! It involves concepts that are covered more in chapter 4. Read the answer—you may be surprised!)
+  Even though you only need to read 1/20 of the names in the phone book, the growth rate of the number of operations is still linear. This means that even though you're reading only a fraction     of the names, the relationship between the number of names read and the time taken remains proportional. In simpler terms, for every name you read, one operation is performed. Thus, whether      it's f(x)=x20f(x)=20x​ or f(x)=xf(x)=x, the number of operations increases linearly with the number of names read. Consequently, the time complexity for this search remains O(n).
 
 
 
