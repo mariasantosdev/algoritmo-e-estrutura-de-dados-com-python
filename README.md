@@ -1,4 +1,4 @@
-Nesse README deixarei um breve resumo dos capítulos para consultas futuras. Além dos exercícios escritos propostos em cada capítulo
+Nesse README deixarei um breve resumo dos capítulos para consultas futuras. Além dos exercícios propostos em cada capítulo
 
 ## Índice
 
