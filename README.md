@@ -25,15 +25,6 @@ Portanto, a busca binária levará 18 passos – uma grande diferença! Em geral
 
 Para entender exatamente quantos passos você precisa, é basicamente um cálculo de logaritmo.
 
-Exercícios:
-
-  1.1 Suppose you have a sorted list of 128 names, and you’re searching through it using binary search. What’s the maximum number of steps it would take?
-  log2 128 = 7
-
-  
-  1.2 Suppose you double the size of the list. What’s the maximum number of steps now?
-  log2 256 = 8.
-
 
 ### big O notation:
     O(log n), também conhecido como tempo de log. Exemplo: pesquisa binária.
@@ -48,3 +39,24 @@ Exercícios:
 * Em vez de segundos, falamos sobre a rapidez com que o tempo de execução de um algoritmo aumenta à medida que o tamanho da entrada aumenta.
 * O tempo de execução dos algoritmos é expresso em notação `Big O`.
 * O(log n) é mais rápido que O(n) e fica muito mais rápido à medida que a lista de itens que você está pesquisando aumenta.
+
+Exercícios:
+
+  1.1 Suppose you have a sorted list of 128 names, and you’re searching through it using binary search. What’s the maximum number of steps it would take?
+  log2 128 = 7
+
+  
+  1.2 Suppose you double the size of the list. What’s the maximum number of steps now?
+  log2 256 = 8.
+
+
+  1.3 Você tem um nome e deseja encontrar o número de telefone da pessoa na lista telefônica.
+
+  1.4 Você tem um número de telefone e deseja encontrar o nome da pessoa na lista telefônica. (Dica: você terá que pesquisar o livro inteiro!)
+
+  1.5 Você deseja ler os números de cada pessoa na lista telefônica.
+
+  1.6 Você deseja ler os números apenas de As. (Esta é uma pergunta complicada! Envolve conceitos que serão abordados mais detalhadamente no capítulo 4. Leia a resposta – você pode se surpreender!)
+
+
+
