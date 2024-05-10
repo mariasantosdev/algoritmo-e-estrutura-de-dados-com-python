@@ -50,6 +50,8 @@ Exercícios:
   log2 256 = 8.
 
   Give the run time for each of these scenarios in terms of big O.
+
+  
   1.3 You have a name, and you want to find the person’s phone number in the phone book.
 
   1.4 You have a phone number, and you want to find the person’s name in the phone book. (Hint: You’ll have to search through the whole book!)
