@@ -43,3 +43,8 @@ Exercícios:
     O (n * log n). Exemplo: um algoritmo de classificação rápida, como quicksort
 
     O(n2). Exemplo: um algoritmo de ordenação lento
+
+* A velocidade do algoritmo não é medida em segundos, mas sim no crescimento do número de operações.
+* Em vez de segundos, falamos sobre a rapidez com que o tempo de execução de um algoritmo aumenta à medida que o tamanho da entrada aumenta.
+* O tempo de execução dos algoritmos é expresso em notação `Big O`.
+* O(log n) é mais rápido que O(n) e fica muito mais rápido à medida que a lista de itens que você está pesquisando aumenta.
