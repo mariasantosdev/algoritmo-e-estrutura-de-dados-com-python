@@ -68,14 +68,13 @@ Exercícios:
 
 ## Capítulo 2
 
-arrays armazenam elementos de forma contígua na memória, permitindo acesso aleatório eficiente, enquanto as listas encadeadas conectam os elementos através de ponteiros, facilitando inserções e remoções.
+Arrays armazenam elementos de forma contígua na memória, permitindo acesso aleatório eficiente, enquanto as listas encadeadas conectam os elementos através de ponteiros, facilitando inserções e remoções.
 
 Os arrays são eficientes para operações de leitura, oferecendo acesso direto aos elementos por índice. No entanto, eles enfrentam desafios em inserções, especialmente no meio da estrutura, onde pode ser necessário realocar elementos e mover dados, resultando em complexidade e lentidão em casos de grande volume de dados.
 
 Por outro lado, as listas encadeadas são mais eficientes em operações de inserção e remoção, principalmente no meio da lista, pois exigem apenas ajustes nos ponteiros, sem a necessidade de mover grandes conjuntos de dados. No entanto, seu acesso aos elementos é sequencial, o que pode ser menos eficiente em cenários que exigem acesso aleatório.
 
 Em resumo, a escolha entre arrays e listas encadeadas depende das necessidades específicas da aplicação, incluindo o tipo de operações realizadas e as restrições de memória. Arrays são adequados para acesso aleatório e operações de leitura eficientes(dependendo de onde ocorrem), enquanto listas encadeadas são mais vantajosas em cenários com inserções e remoções frequentes.
-
 
 Exercícios:
 
