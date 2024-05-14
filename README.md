@@ -113,7 +113,17 @@ Therefore, for the scenario described, implementing the list of usernames as an 
   2.5 In reality, Facebook uses neither an array nor a linked list to store user information. Let’s consider a hybrid data structure: an array of linked lists. You have an array with 26 slots. Each slot points to a linked list. For example, the first slot in the array points to a linked list containing all the usernames starting with A. The second slot points to a linked list containing all the usernames starting with B, and so on.
   
   Suppose Adit B signs up for Facebook, and you want to add them to the list. You go to slot 1 in the array, go to the linked list for slot 1, and add Adit B at the end. Now, suppose you want to search for Zakhir H. You go to slot 26, which points to a linked list of all the Z names. Then you search through that list to find Zakhir H. Compare this hybrid data structure to arrays and linked lists. Is it slower or faster than each for searching and inserting? You don’t have to give big O run times, just whether the data structure would be faster or slower.
-  
+  This hybrid data structure offers advantages over both arrays and linked lists in certain scenarios:
+
+Insertion:
+        Faster than arrays: Inserting into the linked list associated with the appropriate slot is faster than shifting elements in an array when inserting in the middle.
+        Slower than linked lists: While insertion at the end of a linked list is fast, finding the correct slot in the array requires additional computation compared to simply appending to the end of a linked list.
+
+Searching:
+        Faster than arrays: Searching within the linked list associated with the appropriate slot is generally faster than searching through an unsorted array.
+        Comparable to linked lists: Once you reach the correct slot in the array, searching within the linked list for a specific element is comparable to searching in a regular linked list. However, if the linked lists within each slot are long, searching could potentially take longer than in a single, well-balanced linked list.
+
+Overall, this hybrid data structure is generally faster than arrays for both insertion and searching, and comparable to linked lists for searching, depending on the distribution of elements among the slots and the lengths of the linked lists.
  
 
 
