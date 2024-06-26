@@ -68,6 +68,8 @@ Exercícios:
 
 ## Capítulo 2
 
+#### Arrays e listas encadeadas
+
 Arrays armazenam elementos de forma contígua na memória, permitindo acesso aleatório eficiente, enquanto as listas encadeadas conectam os elementos através de ponteiros, facilitando inserções e remoções.
 
 Os arrays são eficientes para operações de leitura, oferecendo acesso direto aos elementos por índice. No entanto, eles enfrentam desafios em inserções, especialmente no meio da estrutura, onde pode ser necessário realocar elementos e mover dados, resultando em complexidade e lentidão em casos de grande volume de dados.
@@ -75,6 +77,30 @@ Os arrays são eficientes para operações de leitura, oferecendo acesso direto 
 Por outro lado, as listas encadeadas são mais eficientes em operações de inserção e remoção, principalmente no meio da lista, pois exigem apenas ajustes nos ponteiros, sem a necessidade de mover grandes conjuntos de dados. No entanto, seu acesso aos elementos é sequencial, o que pode ser menos eficiente em cenários que exigem acesso aleatório.
 
 Em resumo, a escolha entre arrays e listas encadeadas depende das necessidades específicas da aplicação, incluindo o tipo de operações realizadas e as restrições de memória. Arrays são adequados para acesso aleatório e operações de leitura eficientes(dependendo de onde ocorrem), enquanto listas encadeadas são mais vantajosas em cenários com inserções e remoções frequentes(ou quando é necessário a leitura em sequencia)
+
+#### Selection Sort
+
+Passo inicial: Considere o array inteiro como a sublista não ordenada.
+
+Encontrar o menor elemento: Encontre o menor elemento na sublista não ordenada.
+
+Troca de posição: Troque esse menor elemento com o primeiro elemento da sublista não ordenada.
+
+Mover limites: Mova o limite entre a sublista ordenada e a não ordenada uma posição à direita.
+
+Repetir: Repita os passos 2 a 4 até que toda a sublista não ordenada esteja vazia.
+
+Vamos considerar o array [29, 10, 14, 37, 13] e ordená-lo em ordem crescente:
+
+    Array inicial: [29, 10, 14, 37, 13]
+    Encontrar o menor elemento na sublista não ordenada [29, 10, 14, 37, 13] é 10. Trocar 10 com 29: [10, 29, 14, 37, 13]
+    Encontrar o menor elemento na sublista não ordenada [29, 14, 37, 13] é 13. Trocar 13 com 29: [10, 13, 14, 37, 29]
+    Encontrar o menor elemento na sublista não ordenada [14, 37, 29] é 14. Trocar 14 com 14 (nenhuma mudança necessária): [10, 13, 14, 37, 29]
+    Encontrar o menor elemento na sublista não ordenada [37, 29] é 29. Trocar 29 com 37: [10, 13, 14, 29, 37]
+
+O array agora está ordenado: [10, 13, 14, 29, 37].
+
+A complexidade de tempo do Selection Sort é O(n2)O(n2), onde nn é o número de elementos no array. Isso ocorre porque, em cada iteração, o algoritmo percorre a sublista não ordenada para encontrar o menor elemento, e o número de elementos a serem verificados diminui linearmente com cada iteração.
 
 Exercícios:
 
