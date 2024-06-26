@@ -74,7 +74,7 @@ Os arrays são eficientes para operações de leitura, oferecendo acesso direto 
 
 Por outro lado, as listas encadeadas são mais eficientes em operações de inserção e remoção, principalmente no meio da lista, pois exigem apenas ajustes nos ponteiros, sem a necessidade de mover grandes conjuntos de dados. No entanto, seu acesso aos elementos é sequencial, o que pode ser menos eficiente em cenários que exigem acesso aleatório.
 
-Em resumo, a escolha entre arrays e listas encadeadas depende das necessidades específicas da aplicação, incluindo o tipo de operações realizadas e as restrições de memória. Arrays são adequados para acesso aleatório e operações de leitura eficientes(dependendo de onde ocorrem), enquanto listas encadeadas são mais vantajosas em cenários com inserções e remoções frequentes.
+Em resumo, a escolha entre arrays e listas encadeadas depende das necessidades específicas da aplicação, incluindo o tipo de operações realizadas e as restrições de memória. Arrays são adequados para acesso aleatório e operações de leitura eficientes(dependendo de onde ocorrem), enquanto listas encadeadas são mais vantajosas em cenários com inserções e remoções frequentes(ou quando é necessário a leitura em sequencia)
 
 Exercícios:
 
